@@ -1,0 +1,58 @@
+.founder-section{
+   
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.Founder{
+    max-width: 1366px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.Founder-des{
+    width: 50%;
+}
+.Founder-des p{
+    font-size: 25px;
+}
+
+.Founder-des h1{
+    font-size: 20px;
+    color: red;
+    padding-top: 50px;
+    font-weight: 500;
+}
+
+/* Tablets */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+ .Founder-image{
+    display: none;
+ }
+ .Founder-des {
+     width: 100%;
+     text-align: center;
+ }
+}
+
+/* Mobile Devices */
+@media only screen and (max-width: 767px) {
+    /* CSS rules for mobile devices */
+    .Founder-image {
+            display: none;
+        }
+    
+        .Founder-des {
+            width: 100%;
+            text-align: center;
+        }
+
+        .Founder-des p{
+            padding: 20px;
+            font-size: 15px;
+        }
+}

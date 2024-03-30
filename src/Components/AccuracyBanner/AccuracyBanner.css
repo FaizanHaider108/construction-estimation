@@ -1,0 +1,60 @@
+.AccuracyBanner{
+    min-height: 50vh;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    margin-bottom: 50px;
+
+}
+
+.accuracy-banner img{
+    width: 400px;
+
+}
+.desc p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+}
+.desc a{
+    text-align: center;
+    
+}
+
+.desc button{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+.desc p{
+    width: 800px;
+}
+
+
+/* Tablets */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* CSS rules for tablets */
+    .desc p {
+            width: 100%;
+        }
+}
+
+/* Mobile Devices */
+@media only screen and (max-width: 767px) {
+    /* CSS rules for mobile devices */
+    .desc p {
+            width: 100%;
+            padding: 20px;
+        }
+}

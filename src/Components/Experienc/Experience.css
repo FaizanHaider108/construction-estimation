@@ -1,0 +1,32 @@
+.experience-section{
+    max-width: 1366px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.expereince-heading{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: red;
+}
+
+.call-btn button{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    margin-bottom: 50px;
+}
+
+
+/* Mobile Devices */
+@media only screen and (max-width: 767px) {
+    /* CSS rules for mobile devices */
+    .expereince-heading h2{
+        font-size: 20px;
+    }
+}

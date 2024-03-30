@@ -1,0 +1,149 @@
+.Contact-container{
+    padding-top: 150px;
+}
+
+.contact-content h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: red;
+    text-transform: uppercase;
+}
+
+.contact-content h3 {
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+}
+.contact-content span{
+    width: 100px;
+    color: black;
+    font-weight: 500;
+}
+.contact-content h3:nth-child(2) {
+    color: red;
+    font-size: 25px;
+}
+.email{
+    margin-top:20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    /* justify-content: center; */
+}
+.email h3{
+    color: red;
+    font-weight: 800;
+}
+
+.email h2{
+    font-size: 25px;
+    color: black;
+    cursor: pointer;
+}
+
+.Contact-form textarea{
+    width: 100%;
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 5px;
+    color: black;
+    height: 200px;
+    padding: 20px;
+}
+.Contact-form textarea::placeholder{
+    color: rgb(132, 131, 131);
+}
+
+/* Shaping */
+.Contact-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+.contact-content{
+    margin-top: 100px;
+
+}
+.contact-content{
+    padding-left: 20px;
+}
+
+.form{
+    width: 50%;
+    padding: 40px;
+    
+}
+ .Contact-form textarea {
+     width: 80%;
+ }
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .contact-content h1{
+        font-size: 35px;
+    }
+        .form {
+            width: 50%;
+            padding: 0px;
+    
+        }
+                .Contact-container {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-evenly;
+                    margin-bottom: 100px;
+                    align-items: left;
+                }
+                .form{
+                    margin-top: 50px;
+                }
+                                 .Contact-form textarea {
+                                     width: 80%;
+                                 }
+}
+/* Mobile Devices */
+@media only screen and (max-width: 767px) {
+.contact-content h1 {
+        font-size: 30px;
+    }
+
+    .contact-content{
+        width: 450px;
+    }
+
+    .contact-content span{
+        font-size: 23px;
+        
+    }
+.email h3{
+    font-size: 15px;
+}
+.email h2{
+    font-size: 20px;
+}
+    br{
+        display: none;
+    }
+
+    .form {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .Contact-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-bottom: 100px;
+        align-items: left;
+    }
+
+    .form {
+        margin-top: 50px;
+    }
+   .Contact-form textarea
+   {
+    width: 80%;
+   }
+}

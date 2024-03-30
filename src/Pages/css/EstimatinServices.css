@@ -1,0 +1,131 @@
+.estimating-services{
+
+    padding-top: 120px;
+    padding: 40px;
+}
+
+.estimating-services{
+    padding-top: 200px;
+}
+.estimating-services h1{
+    text-align: center;
+    }
+.heading{
+    font-size: 40px;
+    font-weight: 600;
+    color: red;
+    margin-bottom: 100px;
+}
+
+.estimation-services-box{
+   margin: auto;
+    max-width: 1366px;
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+}
+
+
+
+.estimation-contant{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.estimation-box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.estimation-box:nth-child(1){
+    background-color: rgb(244, 238, 229);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.estimation-box:nth-child(2) {
+    background-color: rgb(238, 250, 199);
+    padding: 20px;
+    border-radius: 10px;
+}
+.estimation-box:nth-child(3) {
+    background-color: rgb(208, 234, 249);
+    padding: 20px;
+    border-radius: 10px;
+}
+.estimation-box:nth-child(4) {
+    background-color: rgb(237, 208, 249);
+    padding: 20px;
+    border-radius: 10px;
+}
+.estimation-box:nth-child(5) {
+    background-color: rgb(252, 229, 239);
+    padding: 20px;
+    border-radius: 10px;
+}
+.estimation-box:nth-child(6) {
+    background-color: rgb(172, 191, 255);
+    padding: 20px;
+    border-radius: 10px;
+}
+.estimation-box h1{
+    font-weight: 600;
+}
+.estimation-box p {
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.estimation-box h2{
+    color: inherit;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+/* Tablets */
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .estimation-contant {
+            display: grid;
+            grid-template-columns: 1fr 1fr ;
+            gap: 50px;
+        }
+                .heading {
+                    font-size: 30px;
+                    font-weight: 600;
+                    color: red;
+                    margin-bottom: 100px;
+                }
+}
+
+
+@media only screen and (max-width: 767px){
+    .estimation-contant {
+            display: grid;
+            grid-template-columns: 1fr;
+         
+        }
+        .estimation-image img{
+            display: none;
+        }
+                .estimation-services-box {
+                    margin: auto;
+                    max-width: 1366px;
+                    display: flex;
+                    gap: 0px;
+                    justify-content: space-between;
+                }
+                  .heading {
+                    font-size: 35px;
+                    font-weight: 600;
+                    color: red;
+                    margin-bottom: 100px;
+                }
+.estimation-box h2 {
+    color: inherit;
+    font-weight: 600;
+    font-size: 20px;
+}
+}

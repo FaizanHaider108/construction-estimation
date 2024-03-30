@@ -1,0 +1,32 @@
+.trusted-section{
+    max-width: 1366px;
+    margin: auto;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.company-cotent{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+.company-cotent h1{
+    font-size: 40px;
+    color: red;
+    font-weight: 700;
+}
+
+
+/* Mobile Devices */
+@media only screen and (max-width: 767px) {
+    /* CSS rules for mobile devices */
+.company-cotent h1 {
+        font-size: 30px;
+        color: red;
+        font-weight: 700;
+    }
+}

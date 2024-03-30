@@ -1,0 +1,74 @@
+.About{
+    background-color: red;
+    padding: 40px;
+    margin-bottom: 100px;
+}
+
+.About h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+}
+
+.desc-about{
+    text-align: left;
+}
+
+.desc-about h2{
+    font-weight: 500;
+}
+
+.about-container{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+.desc-about{
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap:20px;
+}
+
+.desc-about h2{
+    font-size: 30px;
+    color: #fff;
+
+}
+
+.working-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.working-list li{
+    list-style: disc;
+}
+
+.new-btn button{
+    padding: 20px 40px;
+    background-color: #fff;
+    font-size: 20px;
+    color: red;
+    font-weight:600;
+    border-radius: 10px;
+}
+
+
+/* Mobile Devices */
+@media only screen and (max-width: 767px) {
+    /* CSS rules for mobile devices */
+    .About h1{
+        font-size: 27px;
+    }
+    .desc-about h2{
+        font-size: 20px;
+    }
+}

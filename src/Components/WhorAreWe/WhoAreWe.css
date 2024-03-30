@@ -1,0 +1,51 @@
+.whoArewe{
+    background-image: url("../../assets/globe.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+
+.WhoWeAre-desc{
+    width: 80%;
+}
+.WhoWeAre-desc h1{
+    font-size: 35px;
+    color: #fff;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.WhoWeAre-desc p{
+    color: #fff;
+    line-height: 40px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/* Tablets */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* CSS rules for tablets */
+    .WhoWeAre-desc h1{
+        font-size: 30px;
+        
+    }
+}
+
+/* Mobile Devices */
+@media only screen and (max-width: 767px) {
+    /* CSS rules for mobile devices */
+    .WhoWeAre-desc h1 {
+            font-size: 25px;
+    
+        }
+          .WhoWeAre-desc p{
+            font-size: 15px;
+          }
+}

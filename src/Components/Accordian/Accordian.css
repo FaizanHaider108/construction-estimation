@@ -1,0 +1,25 @@
+
+.accordian-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 200px;
+    max-width: 1366px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.accordian-section h1{
+    font-size: 40px;
+    color: red;
+    font-weight: 600;
+}
+
+.accordian-section p{
+    margin-bottom: 50px;
+}
+
+.accordian{
+    padding: 30px;
+}

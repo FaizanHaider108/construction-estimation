@@ -1,0 +1,108 @@
+.help-section{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.help-heading{
+    font-size: 40px;
+    font-weight: 600;
+    color: red;
+}
+.box img{
+    width: 400px;
+}
+.box{
+    max-width: 1210px;
+    margin: auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 40px;
+   margin-top: 100px;
+}
+.box:nth-child(3){
+    flex-direction: row-reverse;
+}
+.box:nth-child(5) {
+    flex-direction: row-reverse;
+}
+.box img{
+    width:80%;
+}
+.box-desc{
+    text-align: left;
+}
+
+.box-desc h1{
+    font-weight: 600;
+    font-size: 27px;
+}
+
+.box-desc h2{   
+    font-size: 25px;
+}
+
+.box-desc p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.button{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.button a button{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+
+/* Tablets */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .help-heading{
+        font-size: 35px;
+    }
+   .box img{
+    display: none;
+   }
+
+    .box{
+        padding: 30px;
+   }
+}
+
+
+/* Mobile Devices */
+@media only screen and (max-width: 767px) {
+    /* CSS rules for mobile devices */
+        .help-heading {
+                font-size:27px;
+            }
+        
+            .box img {
+                display: none;
+            }
+        
+            .box {
+                padding: 30px;
+            }
+
+                        .box-desc p {
+                            margin-top: 20px;
+                            font-size: 15px;
+                        }
+                                                .box-desc h2 {
+                                                    font-size: 19px;
+                                                }
+                                                                                           .box-desc h1 {
+                                                                                               font-weight: 600;
+                                                                                               font-size: 24px;
+                                                                                               padding-bottom: 20px;
+                                                                                           }
+}
