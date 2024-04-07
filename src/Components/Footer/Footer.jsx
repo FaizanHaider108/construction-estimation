@@ -55,7 +55,7 @@ const Footer = () => {
           </div>
           <div className="email">
             <FaPhoneAlt style={{ color: "red" }} />
-            <span>1- 875-987-0987</span>
+            <span>(213) 262 0049</span>
           </div>
           <h3 style={{ paddingTop: "20px" }}>Follow us</h3>
           <div className="email">
@@ -69,7 +69,8 @@ const Footer = () => {
           <ul>
             <li>
               355 S. Grand Ave, Suite 2450,
-              <br /> Los Angeles, CA
+              <br />
+              Los Angeles, CA
             </li>
           </ul>
         </div>

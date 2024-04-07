@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className="uppernavbar">
         <div className="navbar-number">
           <h3>Call us Today!</h3>
-          <span>1- 875-987-0987</span>
+          <span>(213) 262 0049</span>
           <span>info@estibuilder.com</span>
         </div>
       </div>
