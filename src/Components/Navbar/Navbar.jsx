@@ -15,7 +15,7 @@ const Navbar = () => {
         <div className="navbar-number">
           <h3>Call us Today!</h3>
           <span>1- 875-987-0987</span>
-          <span>info@iambuilder.com</span>
+          <span>info@estibuilder.com</span>
         </div>
       </div>
       <div className="lower-nav">
@@ -30,13 +30,13 @@ const Navbar = () => {
           </li>
 
           <li>
-            <a href="/experience">Project Experience</a>
+            <Link to="/experience">Project Samples</Link>
           </li>
           <li class="dropdown">
-            <Link to="/services" class="dropbtn">
+            <Link to="/services" className="dropbtn">
               Estimating Services
             </Link>
-            <div class="dropdown-content">
+            <div className="dropdown-content">
               <li>Developer Esitmating Services</li>
               <li>Developer Residentail Services</li>
               <li>Commercial Estimating Services</li>
@@ -78,25 +78,21 @@ const Navbar = () => {
             </li>
             <hr />
             <li>
-              <Link to="/experience">Project Experiences</Link>
+              <Link to="/experience">Project Samples</Link>
             </li>
             <hr />
-
             <li>
               <Link to="/services">Estimating Services</Link>
             </li>
             <hr />
-
             <li>
               <Link to="/About">About us</Link>
             </li>
             <hr />
-
             <li>
               <Link to="/Contact">Contact</Link>
             </li>
             <hr />
-
             <li>
               <Link to="/faq">Faq's</Link>
             </li>

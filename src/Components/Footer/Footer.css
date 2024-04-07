@@ -1,18 +1,21 @@
 .Footer{
     min-height: 40vh;
     background-color: aliceblue;
+    padding-bottom: 100px;
+    
 }
 
 .Footer-content{
-    max-width: 1366px;
-    margin: auto;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
     align-items: baseline;
     justify-content: space-between;
-    padding-top: 80px;
+    max-width: 1100px;
+    margin: auto;
+    gap: 50px;
+    padding-top: 100px;
 }
+
 
 .quick-links h1{
     font-size: 30px;
@@ -21,12 +24,9 @@
 }
 
 .quick-links ul li{
-    list-style: circle;
     padding-top: 20px;
 }
-.quick-links ul li a{
-    
-}
+
 .quick-links ul li a:hover{
     text-decoration: underline;
 }
@@ -42,7 +42,7 @@
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     /* CSS rules for tablets */
     .Footer-content {
-            max-width: 1366px;
+            max-width: 1266px;
             margin: auto;
             display: flex;
             flex-direction: column;
@@ -62,5 +62,13 @@
   }
   .quick-links{
     padding-top: 20px;
+  }
+  .quick-links h1 {
+      font-size: 25px;
+      font-weight: 600;
+      color: red;
+  }
+  .Footer{
+    padding: 20px;
   }
 }

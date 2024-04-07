@@ -12,7 +12,7 @@ const Contact = () => {
         </span>
         <div className="email">
           <h3>Email:</h3>
-          <h2>info@iambuilder.com</h2>
+          <h2>info@estibuilder.com</h2>
         </div>
       </div>
       <div className="form">

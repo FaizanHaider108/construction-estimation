@@ -7,14 +7,15 @@ import { BsHouseCheckFill } from "react-icons/bs";
 import { BsRocketTakeoffFill } from "react-icons/bs";
 import { FaPeopleArrows } from "react-icons/fa";
 import { SiGotomeeting } from "react-icons/si";
+import { Link } from "react-router-dom";
+import Accordian from "../Components/Accordian/Accordian";
 const EstimatingServices = () => {
   return (
     <div className="estimating-services">
-      <h1 className="heading">Our Services</h1>
+      <div className="heading-section">
+        <h1 className="heading">Our Services</h1>
+      </div>
       <div className="estimation-services-box">
-        <div className="estimation-image">
-          <img src={ServicesImage} alt="Estimation Services" />
-        </div>
         <div className="estimation-contant">
           <div className="estimation-box">
             <MdConstruction size={50} />
@@ -33,7 +34,7 @@ const EstimatingServices = () => {
               precise and detailed estimates tailored to meet the unique needs
               of each client.
             </p>
-          </div>{" "}
+          </div>
           <div className="estimation-box">
             <BsRocketTakeoffFill size={50} />
             <h2>Construction Takeoff Services</h2>
@@ -42,7 +43,7 @@ const EstimatingServices = () => {
               precise and detailed estimates tailored to meet the unique needs
               of each client.
             </p>
-          </div>{" "}
+          </div>
           <div className="estimation-box">
             <BsHouseCheckFill size={50} />
             <h2>Commercial Estimating Services</h2>
@@ -51,7 +52,7 @@ const EstimatingServices = () => {
               precise and detailed estimates tailored to meet the unique needs
               of each client.
             </p>
-          </div>{" "}
+          </div>
           <div className="estimation-box">
             <FaPeopleArrows size={50} />
             <h2>Construction Lead Generation Services</h2>
@@ -60,7 +61,7 @@ const EstimatingServices = () => {
               precise and detailed estimates tailored to meet the unique needs
               of each client.
             </p>
-          </div>{" "}
+          </div>
           <div className="estimation-box">
             <SiGotomeeting size={50} />
             <h2>Construction Consultation</h2>
@@ -71,7 +72,11 @@ const EstimatingServices = () => {
             </p>
           </div>
         </div>
+        <Link className="Cta">
+          <Link to="/Contact">Discuss your project</Link>
+        </Link>
       </div>
+      <Accordian />
     </div>
   );
 };

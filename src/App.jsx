@@ -9,21 +9,36 @@ import AboutPage from "./Pages/AboutPage";
 import FaqPage from "./Pages/FaqPage";
 import ProjectExperieince from "./Pages/ProjectExperieince";
 import EstimatingServices from "./Pages/EstimatingServices";
+import { BrowserRouter as Router, useLocation } from "react-router-dom";
+import { useLayoutEffect } from "react";
+import PrivayPolicy from "./Pages/PrivayPolicy";
+
+const Wrapper = ({ children }) => {
+  const location = useLocation();
+  useLayoutEffect(() => {
+    document.documentElement.scrollTo(0, 0);
+  }, [location.pathname]);
+  return children;
+};
+
 const App = () => {
   return (
     <>
-      <Navbar />
+      <Wrapper>
+        <Navbar />
 
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/Contact" element={<Contact />} />
-        <Route path="/About" element={<AboutPage />} />
-        <Route path="/faq" element={<FaqPage />} />
-        <Route path="/experience" element={<ProjectExperieince />} />
-        <Route path="/services" element={<EstimatingServices />} />
-      </Routes>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Contact" element={<Contact />} />
+          <Route path="/About" element={<AboutPage />} />
+          <Route path="/faq" element={<FaqPage />} />
+          <Route path="/experience" element={<ProjectExperieince />} />
+          <Route path="/services" element={<EstimatingServices />} />
+          <Route path="/privacy-policy" element={<PrivayPolicy />} />
+        </Routes>
 
-      <Footer />
+        <Footer />
+      </Wrapper>
     </>
   );
 };

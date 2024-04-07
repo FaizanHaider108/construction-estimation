@@ -12,11 +12,13 @@ import Experience from "../Components/Experienc/Experience";
 import About from "../Components/About/About";
 import Accordian from "../Components/Accordian/Accordian";
 import Footer from "../Components/Footer/Footer";
+import Number from "../Components/Number/Number";
 
 const Home = () => {
   return (
     <>
       <Hero />
+      <Number />
       <TrustedCompany />
       <WorkWith />
       <Founder />

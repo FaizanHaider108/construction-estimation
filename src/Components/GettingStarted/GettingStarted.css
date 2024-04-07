@@ -6,6 +6,7 @@
     justify-content: center;
     flex-direction: column;
     margin-bottom: 100px;
+    min-height: 100vh;
 }
 .getting-started-heading{
     text-align: center;
@@ -50,6 +51,10 @@
     .getting-started-imag img{
         display: none;
     }
+    .getting-started{
+        gap: 100px;
+        min-height: 100vh;
+    }
     .decs-1{
         padding: 20px;
     }
@@ -57,14 +62,14 @@
             max-width: 550px;
             display: flex;
             flex-direction: column;
-            gap: 0px;
+            gap: 40px;
         }
         .decs-1 h3{
             font-size: 24px;
         }
                 .getting-started-box {
                     display: flex;
-                    height: 60vh;
+                    height: 100%;
                     gap: 40px;
                     align-items: center;
                     justify-content: center;

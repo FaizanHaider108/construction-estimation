@@ -6,14 +6,14 @@
 
 .help-heading{
     font-size: 40px;
-    font-weight: 600;
-    color: red;
+        color: red;
+        font-weight: 600;
 }
 .box img{
     width: 400px;
 }
 .box{
-    max-width: 1210px;
+    max-width: 1100px;
     margin: auto;
    display: flex;
    align-items: center;
@@ -60,6 +60,7 @@
     font-weight: 600;
     font-size: 20px;
     margin-top: 50px;
+    border-radius: 10px;
 }
 
 
@@ -82,7 +83,7 @@
 @media only screen and (max-width: 767px) {
     /* CSS rules for mobile devices */
         .help-heading {
-                font-size:27px;
+                font-size:23px;
             }
         
             .box img {
@@ -95,14 +96,23 @@
 
                         .box-desc p {
                             margin-top: 20px;
-                            font-size: 15px;
+                            font-size: 14px;
                         }
                                                 .box-desc h2 {
-                                                    font-size: 19px;
+                                                    font-size: 16px;
                                                 }
                                                                                            .box-desc h1 {
                                                                                                font-weight: 600;
-                                                                                               font-size: 24px;
+                                                                                               font-size: 18px;
                                                                                                padding-bottom: 20px;
                                                                                            }
+                                                                                                                                                                                   .box {
+                                                                                                                                                                                       max-width: 1210px;
+                                                                                                                                                                                       margin: auto;
+                                                                                                                                                                                       display: flex;
+                                                                                                                                                                                       align-items: center;
+                                                                                                                                                                                       justify-content: space-between;
+                                                                                                                                                                                       gap: 40px;
+                                                                                                                                                                                       margin-top: 20px;
+                                                                                                                                                                                   }
 }

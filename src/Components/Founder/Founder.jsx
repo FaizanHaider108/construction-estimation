@@ -7,12 +7,11 @@ const Founder = () => {
       <div className="Founder">
         <div className="Founder-des">
           <p>
-            "Most contractors are missing out on over $200,000 per month in
-            project contracts and they don’t even know it. They are busy, have
-            no time for estimating, and they are leaving money on the table. A
-            lot of money. We designed our construction estimating service with
-            the goal of helping our clients win projects and ultimately be
-            successful"
+            "Many contractors are unknowingly forfeiting over $200,000 in
+            potential project contracts each month due to their busy schedules
+            and lack of time for estimating. Our construction estimating service
+            aims to bridge this gap by assisting clients in securing projects
+            and achieving success."
           </p>
           <h1>Founder (Construction Estimation)</h1>
         </div>

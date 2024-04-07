@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import { Link } from "react-router-dom";
 const About = () => {
   return (
     <div className="About">
@@ -98,9 +99,9 @@ const About = () => {
             <li>Residential Estimating</li>
           </ul>
         </div>
-        <a href="" className="new-btn">
+        <Link to="/Contact" className="new-btn">
           <button>Get a Qoute</button>
-        </a>
+        </Link>
       </div>
     </div>
   );

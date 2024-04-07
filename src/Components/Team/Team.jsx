@@ -8,38 +8,41 @@ const Team = () => {
         <h1>Our Team</h1>
         <span className="team-para">
           <p>
-            Daniel Quindemil is founder of I AM Builders. He is a Licensed
-            General Contractor with over 10 years of experience in the design
-            and construction field.
+            ESTIBuilder was founded by John Smith, a Licensed General Contractor
+            with over a decade of experience in the design and construction
+            industry.
           </p>
 
           <p>
-            He started I AM Builders in 2015 with a vision of changing the
-            construction industry. When he was in the field he realized
-            contractors were busy and didn’t have time to focus on the important
-            parts of their business like estimating and sales, so he launched I
-            AM Builders to help busy contractors.
+            Established in 2015, ESTIBuilder was born from John's vision to
+            revolutionize the construction sector. Recognizing the time
+            constraints faced by contractors, particularly in areas like
+            estimating and sales, John launched ESTIBuilder to provide essential
+            support to busy professionals.
           </p>
 
           <p>
-            He has a Bachelor Degree in Architecture, LEED Certified, a member
-            of the American Society of Professional Estimators, and has been
-            part of some notable projects for Bacardi, University of Miami,
-            Private Developers, and most recently the US Embassy in Jerusalem.
+            John holds a Bachelor's Degree in Architecture, is LEED Certified,
+            and is an active member of the American Society of Professional
+            Estimators. Throughout his career, he has contributed to significant
+            projects for prestigious clients such as Bacardi, the University of
+            Miami, Private Developers, and more recently, the US Embassy in
+            Jerusalem.
           </p>
 
           <p>
-            Daniel manages our team which includes professional engineers,
-            architects, and civil engineers. Everyone at I AM Builders has a
-            background in construction and has actual field experience and
-            professional training.
+            Leading our team at ESTIBuilder, John oversees a group of
+            professionals including engineers, architects, and civil engineers.
+            Every member of our team brings valuable construction experience and
+            professional training to the table.
           </p>
 
           <p>
-            We use a Double Verification system where our Estimators perform the
-            estimates and our Senior team which reviews and finalizes. This
-            ensures you get a minimum of two sets of eyes on your project and
-            two opinions regarding pricing and takeoffs.
+            At ESTIBuilder, we employ a Double Verification system wherein our
+            Estimators conduct initial estimates, followed by review and
+            finalization by our Senior team. This meticulous process ensures
+            that each project benefits from the expertise of at least two sets
+            of eyes, providing comprehensive pricing and takeoffs
           </p>
         </span>
       </div>

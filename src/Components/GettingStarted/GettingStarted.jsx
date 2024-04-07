@@ -18,8 +18,8 @@ const GettingStarted = () => {
             <h3>You Send in Your Plans</h3>
             <p>
               You can upload your plans here or email us at
-              <a>info@iambuilders.com.</a> Whichever is more convenient for you.
-              Be sure to let us know your scope of work and any details
+              <a> info@estibuilder.com </a> Whichever is more convenient for
+              you. Be sure to let us know your scope of work and any details
               regarding your project.
             </p>
           </div>

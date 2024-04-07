@@ -5,27 +5,25 @@ import { MdEmail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="Footer">
       <div className="Footer-content">
-        <div className="footer-logo">
-          <img src={FooterLogo} alt="logo" />
-        </div>
         <div className="quick-links">
           <h1>Links</h1>
           <ul>
             <li>
-              <a href="">Commercial Estimating Services</a>
+              <Link to="/services">Commercial Estimating Services</Link>
             </li>
             <li>
-              <a href="">Residentail Estimating Services</a>
+              <Link to="/services">Residentail Estimating Services</Link>
             </li>
             <li>
-              <a href="">Construction Takeoff Services</a>
+              <Link to="/services">Construction Takeoff Services</Link>
             </li>
             <li>
-              <a href="">Construction Estimating Consultant</a>
+              <Link to="/services">Construction Estimating Consultant</Link>
             </li>
           </ul>
         </div>
@@ -35,19 +33,16 @@ const Footer = () => {
 
           <ul>
             <li>
-              <a href="">Terms of Use</a>
+              <Link to="/Privacy-policy">Privacy Policy</Link>
             </li>
             <li>
-              <a href="">Privacy Policy</a>
+              <Link to="/Contact">Contact Us</Link>
             </li>
             <li>
-              <a href="/Contact">Contact Us</a>
+              <Link to="/About">About us</Link>
             </li>
             <li>
-              <a href="/About">About us</a>
-            </li>
-            <li>
-              <a href="/faq">FAQ</a>
+              <Link to="/faq">FAQ</Link>
             </li>
           </ul>
         </div>
@@ -56,7 +51,7 @@ const Footer = () => {
           <h1>Contact</h1>
           <div className="email">
             <MdEmail style={{ color: "red" }} />
-            <span>info@iambuilder.com</span>
+            <span>info@estibuilder.com</span>
           </div>
           <div className="email">
             <FaPhoneAlt style={{ color: "red" }} />
@@ -67,6 +62,16 @@ const Footer = () => {
             <FaInstagram size={20} style={{ color: "red" }} />
             <FaFacebook size={20} style={{ color: "red" }} />
           </div>
+        </div>
+
+        <div className="quick-links">
+          <h1>Our Office</h1>
+          <ul>
+            <li>
+              355 S. Grand Ave, Suite 2450,
+              <br /> Los Angeles, CA
+            </li>
+          </ul>
         </div>
       </div>
     </div>

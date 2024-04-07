@@ -16,7 +16,7 @@ const Accordian = () => {
           </AccordionSummary>
           <AccordionDetails>
             Every project is unique so to get a quote, you can send your plans
-            to info@iambuilders.com. General price ranges for smaller projects
+            to info@estibuilder.com. General price ranges for smaller projects
             can run in the $400-500 range, mid-sized projects can be in the
             $500-800 range, and large projects $1000+.
           </AccordionDetails>
@@ -72,17 +72,6 @@ const Accordian = () => {
         </Accordion>
         <Accordion style={{ width: "100%" }}>
           <AccordionSummary id="panel-header" aria-controls="panel-content">
-            Where do you get your prices from ?
-          </AccordionSummary>
-          <AccordionDetails>
-            We get our pricing from Craftsman National Construction Estimator
-            Database Suite which is updated multiple times per year, and pricing
-            is based on your project’s zip code so your bid will be as accurate
-            and competitive as possible.
-          </AccordionDetails>
-        </Accordion>
-        <Accordion style={{ width: "100%" }}>
-          <AccordionSummary id="panel-header" aria-controls="panel-content">
             What types of estimates do you do?
           </AccordionSummary>
           <AccordionDetails>
@@ -122,10 +111,10 @@ const Accordian = () => {
           <AccordionDetails>
             We make it easy to send us your plans. You can send them to us in
             any of the following ways: You can email the plans and trades you
-            would like to bid to info@iambuilders.com You can email us your
-            Invitation to Bid Email to info@iambuilders.com with the trades you
+            would like to bid to info@estibuilder.com You can email us your
+            Invitation to Bid Email to info@estibuilder.com with the trades you
             would like to bid. You can upload through our Dropbox by visiting:
-            www.iambuilders.com/upload
+            www.iambuilder.com/upload
           </AccordionDetails>
         </Accordion>
         <Accordion style={{ width: "100%" }}>

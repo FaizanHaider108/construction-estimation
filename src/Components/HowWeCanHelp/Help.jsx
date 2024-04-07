@@ -4,6 +4,7 @@ import Callender from "../../assets/Cal.jpeg";
 import Map from "../../assets/map.jpg";
 import Track from "../../assets/track.jpg";
 import OIP from "../../assets/OIP.jpeg";
+import { Link } from "react-router-dom";
 const Help = () => {
   return (
     <div className="help-section">
@@ -12,7 +13,7 @@ const Help = () => {
         <div className="box">
           <img src={Callender} alt="" />
           <div className="box-desc">
-            <h1>“I have no time to estimate projects”</h1>
+            <h1>I have no time to estimate projects</h1>
             <h2>-Every Contractor in America</h2>
             <p>
               The biggest challenge for contractors is often the scarcity of
@@ -35,8 +36,8 @@ const Help = () => {
           <img src={Map} alt="" style={{ width: "400px" }} />
           <div className="box-desc">
             <h1>
-              “We can estimate your entire project for you based on your LOCAL
-              PRICING so the numbers will be accurate”
+              We can estimate your entire project for you based on your LOCAL
+              PRICING so the numbers will be accurate
             </h1>
 
             <p>
@@ -90,9 +91,9 @@ const Help = () => {
           </div>
         </div>
         <div className="button">
-          <a href="/Contact">
+          <Link to="/Contact">
             <button>Get A Qoute</button>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

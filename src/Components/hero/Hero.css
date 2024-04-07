@@ -6,11 +6,10 @@
     background-size: cover;
     background-clip: inherit;
     display: flex;
-    margin-bottom: 50px;
 }
 
 .hero-section{
-    width: 1366px;
+    width: 1100px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -120,6 +119,6 @@
                                     margin-bottom: 50px;
                                 }
         .hero-section{
-            margin-top: 240px;
+            margin-top: 200px;
         }
 }
