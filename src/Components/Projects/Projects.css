@@ -14,19 +14,21 @@
 .project-box{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: aliceblue;}
-
+    background-color: rgb(246, 248, 251);
+    border-radius: 20px;
+}
   
 
 .Description h1{
     font-size: 40px;
-    color: red;
+    color: black;
     
     font-weight: 600;
 }
 
 .Description span{
-    font-size: 25px;
+        font-size: 18px;
+        color: black;
 }
 
 .Description ul {
@@ -41,7 +43,7 @@
     padding-top: 30px;
     color: red;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 20px;
     margin-left: 40px;
 }
 
@@ -56,6 +58,15 @@
     color: #fff;
     font-weight: 600;
     border-radius: 10px;
+}
+
+.un-list a{
+    font-size: 20px ;
+    color: red;
+    text-decoration: underline;
+}
+.un-list span{
+    padding-left: 40px;
 }
 /* Tablets */
 @media only screen and (min-width: 768px) and (max-width: 1024px){
@@ -97,7 +108,7 @@
     }
 
     .image-side img {
-        border-radius: 20px;
+        display: none;
     }
 
         .Description h1 {
@@ -110,4 +121,7 @@
                     font-size: 20px;
                     margin-top: 30px;
                 }
+                                .un-list span {
+                                    padding-left: 20px;
+                                }
 }
