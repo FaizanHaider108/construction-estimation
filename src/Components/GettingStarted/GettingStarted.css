@@ -6,12 +6,14 @@
     justify-content: center;
     flex-direction: column;
     margin-bottom: 100px;
+    gap: 100px;
     min-height: 100vh;
 }
 .getting-started-heading{
     text-align: center;
     font-size: 50px;
     margin-top: 50px;
+    
     font-weight: 600;
     color: red;
 }
